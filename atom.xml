@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://winniewu999.github.io</id>
-    <title>Gridea</title>
-    <updated>2021-01-10T05:16:46.769Z</updated>
+    <title>winnie</title>
+    <updated>2021-01-10T05:32:47.225Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://winniewu999.github.io"/>
     <link rel="self" href="https://winniewu999.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>have courage and be kind.</subtitle>
     <logo>https://winniewu999.github.io/images/avatar.png</logo>
     <icon>https://winniewu999.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, Gridea</rights>
+    <rights>All rights reserved 2021, winnie</rights>
     <entry>
         <title type="html"><![CDATA[2021年度计划]]></title>
         <id>https://winniewu999.github.io/post/2021-nian-du-ji-hua/</id>

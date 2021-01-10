@@ -1,62 +1,113 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>2021年度计划 | Gridea</title>
-<link rel="shortcut icon" href="https://winniewu999.github.io/favicon.ico?v=1610255803605">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+    
+<meta charset="utf-8" >
+
+<title>2021年度计划 | winnie</title>
+<meta name="description" content="have courage and be kind.">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://winniewu999.github.io/favicon.ico?v=1610256754138">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://winniewu999.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="2021年度计划 | Gridea - Atom Feed" href="https://winniewu999.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="2020年好像什么也没做，也没存到钱，唯一感受到安慰的就是和咕咕鸡以及两只猫猫（汤饭和烤肉）陪伴着我度过了这难熬的一年。还有换了一个工作，终于不用做机构老师了，这真是一个没啥晋升空间的工作。
-所以我觉得今年应该做出一些改变，从做2021年的..." />
-    <meta name="keywords" content="" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://winniewu999.github.io">
-  <img class="avatar" src="https://winniewu999.github.io/images/avatar.png?v=1610255803605" alt="">
-  </a>
-  <h1 class="site-title">
-    Gridea
-  </h1>
-  <p class="site-description">
-    温故而知新
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/archives" class="menu">
-          归档
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://winniewu999.github.io">
+        <img class="avatar" src="https://winniewu999.github.io/images/avatar.png?v=1610256754138" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://winniewu999.github.io">
+        <h1 class="site-title">winnie</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
   </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="https://winniewu999.github.io" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="https://winniewu999.github.io/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="https://winniewu999.github.io/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="https://winniewu999.github.io/post/2021-nian-du-ji-hua" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">2021年度计划</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2021-01-10</span>
+            
+          </div>
+          <div class="post-content">
+            <p>2020年好像什么也没做，也没存到钱，唯一感受到安慰的就是和咕咕鸡以及两只猫猫（汤饭和烤肉）陪伴着我度过了这难熬的一年。还有换了一个工作，终于不用做机构老师了，这真是一个没啥晋升空间的工作。<br>
+所以我觉得今年应该做出一些改变，从做2021年的计划开始。</p>
+<h2 id="不想加薪的营养师不是好厨子">不想加薪的营养师不是好厨子</h2>
+<p>过年前希望能把薪资给涨一涨，也不知道是和直属上司讲还是和人事沟通。不过公司里的同事都因为疫情降薪了，不知道有没有什么机会可以涨薪呢。涨不了薪的话可能今年就想着要不要跳槽啦，文章和短视频文案要好好找题材呢，这样才能拿多点绩效呀！</p>
+<h2 id="好好学习天天向上">好好学习，天天向上</h2>
+<p>首先今年四月的自考总算是选了一个稍微感兴趣的专业，希望自己能好好考，争取今年4、7、10月的自考都能通过考试！<br>
+然后就是今年七月的注册营养技师考试，希望不要和自考的时间撞上，不过撞上的话还是会选择营养技师的考试吧，毕竟我现在一个证书都没有呢。还希望能报一个班考试，不过还不知道我大学的成绩单符不符合考试条件里的所有学分。</p>
+<h2 id="生活质量也要提升呀">生活质量也要提升呀</h2>
+<p>刚报名的瑜伽要好好坚持呢，不能白花钱！等半年满了之后的话考虑要不要转成线上上课，不过还是线下瑜伽比较好啦。<br>
+还希望家里能添置一些小家具，豆浆机、烤箱这两个吧，添置之后幸福感会提升的吧。</p>
+<p>能想到的暂时也就那么多了，再有想到的就再补充吧！</p>
+
+          </div>
+        </div>
+
+        
+      </div>
+
+      
+
+      <div class="site-footer">
+  <div class="slogan">have courage and be kind.</div>
   <div class="social-container">
     
       
@@ -70,107 +121,26 @@
       
     
   </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://winniewu999.github.io/atom.xml" target="_blank">RSS</a>
 </div>
 
-        <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              2021年度计划
-            </h2>
-            <div class="post-info">
-              <span>
-                2021-01-10
-              </span>
-              <span>
-                2 min read
-              </span>
-              
-            </div>
-            
-            <div class="post-content-wrapper">
-              <div class="post-content">
-                <p>2020年好像什么也没做，也没存到钱，唯一感受到安慰的就是和咕咕鸡以及两只猫猫（汤饭和烤肉）陪伴着我度过了这难熬的一年。还有换了一个工作，终于不用做机构老师了，这真是一个没啥晋升空间的工作。<br>
-所以我觉得今年应该做出一些改变，从做2021年的计划开始。</p>
-<h2 id="不想加薪的营养师不是好厨子">不想加薪的营养师不是好厨子</h2>
-<p>过年前希望能把薪资给涨一涨，也不知道是和直属上司讲还是和人事沟通。不过公司里的同事都因为疫情降薪了，不知道有没有什么机会可以涨薪呢。涨不了薪的话可能今年就想着要不要跳槽啦，文章和短视频文案要好好找题材呢，这样才能拿多点绩效呀！</p>
-<h2 id="好好学习天天向上">好好学习，天天向上</h2>
-<p>首先今年四月的自考总算是选了一个稍微感兴趣的专业，希望自己能好好考，争取今年4、7、10月的自考都能通过考试！<br>
-然后就是今年七月的注册营养技师考试，希望不要和自考的时间撞上，不过撞上的话还是会选择营养技师的考试吧，毕竟我现在一个证书都没有呢。还希望能报一个班考试，不过还不知道我大学的成绩单符不符合考试条件里的所有学分。</p>
-<h2 id="生活质量也要提升呀">生活质量也要提升呀</h2>
-<p>刚报名的瑜伽要好好坚持呢，不能白花钱！等半年满了之后的话考虑要不要转成线上上课，不过还是线下瑜伽比较好啦。<br>
-还希望家里能添置一些小家具，豆浆机、烤箱这两个吧，添置之后幸福感会提升的吧。</p>
-<p>能想到的暂时也就那么多了，再有想到的就再补充吧！</p>
 
-              </div>
-              <div class="toc-container">
-                <ul class="markdownIt-TOC">
-<li>
-<ul>
-<li><a href="#%E4%B8%8D%E6%83%B3%E5%8A%A0%E8%96%AA%E7%9A%84%E8%90%A5%E5%85%BB%E5%B8%88%E4%B8%8D%E6%98%AF%E5%A5%BD%E5%8E%A8%E5%AD%90">不想加薪的营养师不是好厨子</a></li>
-<li><a href="#%E5%A5%BD%E5%A5%BD%E5%AD%A6%E4%B9%A0%E5%A4%A9%E5%A4%A9%E5%90%91%E4%B8%8A">好好学习，天天向上</a></li>
-<li><a href="#%E7%94%9F%E6%B4%BB%E8%B4%A8%E9%87%8F%E4%B9%9F%E8%A6%81%E6%8F%90%E5%8D%87%E5%91%80">生活质量也要提升呀</a></li>
-</ul>
-</li>
-</ul>
-
-              </div>
-            </div>
-          </article>
-        </div>
-
-        
-
-        
-
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="https://winniewu999.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
-      </div>
     </div>
+    <script type="application/javascript">
 
-    <script>
-      hljs.initHighlightingOnLoad()
+hljs.initHighlightingOnLoad()
 
-      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
-      // This should probably be throttled.
-      // Especially because it triggers during smooth scrolling.
-      // https://lodash.com/docs/4.17.10#throttle
-      // You could do like...
-      // window.addEventListener("scroll", () => {
-      //    _.throttle(doThatStuff, 100);
-      // });
-      // Only not doing it here to keep this Pen dependency-free.
+</script>
 
-      window.addEventListener("scroll", event => {
-        let fromTop = window.scrollY;
 
-        mainNavLinks.forEach((link, index) => {
-          let section = document.getElementById(decodeURI(link.hash).substring(1));
-          let nextSection = null
-          if (mainNavLinks[index + 1]) {
-            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-          }
-          if (section.offsetTop <= fromTop) {
-            if (nextSection) {
-              if (nextSection.offsetTop > fromTop) {
-                link.classList.add("current");
-              } else {
-                link.classList.remove("current");    
-              }
-            } else {
-              link.classList.add("current");
-            }
-          } else {
-            link.classList.remove("current");
-          }
-        });
-      });
 
-    </script>
+
   </body>
 </html>
